@@ -6,10 +6,6 @@ export default function PromiseSection() {
     <section className="story promise-section section-pad" id="our-story" aria-labelledby="story-title">
       <Reveal className="promise-layout">
         <div className="promise-heading">
-          <p className="eyebrow section-marker">
-            <span>05</span>
-            <i>TWO HEARTS, ONE PROMISE</i>
-          </p>
           <h2 id="story-title">
             A lifetime
             <br />
@@ -25,7 +21,6 @@ export default function PromiseSection() {
           <span className="promise-quote-mark" aria-hidden="true">“</span>
           <p className="promise-arabic" lang="ar" dir="rtl">{w.verseArabic}</p>
           <blockquote>{w.verse}</blockquote>
-          <p className="eyebrow">{w.verseReference}</p>
         </div>
       </Reveal>
     </section>

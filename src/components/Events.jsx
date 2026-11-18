@@ -14,9 +14,6 @@ function EventCard({ event }) {
           </span>
         </time>
       </div>
-      <p>
-        {event.venue.name}, {event.venue.city}
-      </p>
       <a className="action-link" href={event.venue.mapsUrl} target="_blank" rel="noopener noreferrer" aria-label={`View ${event.venue.name} on Google Maps (opens in new tab)`}>
         Directions
       </a>
@@ -37,7 +34,6 @@ export default function Events() {
   return (
     <section className="events" id="celebrations" aria-labelledby="events-title">
       <Reveal className="events-heading">
-        <p className="eyebrow">03 / THE CELEBRATIONS</p>
         <h2 id="events-title">
           Come for the love.
           <br />
@@ -49,7 +45,6 @@ export default function Events() {
           <EventCard event={w.wedding} />
         </Reveal>
       </div>
-      <p className="schedule-note">All times are India Standard Time (IST).</p>
     </section>
   )
 }

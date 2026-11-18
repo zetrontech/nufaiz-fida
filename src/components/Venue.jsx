@@ -12,10 +12,8 @@ export default function Venue() {
       </picture>
       <Reveal>
         <p className="eyebrow section-marker">
-          <span>06</span>
           <i>A PLACE FOR OUR FOREVER</i>
         </p>
-        <span className="venue-city eyebrow">LOCATION · {v.city}</span>
         <h2 id="venue-title">
           {words.slice(0, -1).join(' ')}
           <br />
@@ -31,7 +29,6 @@ export default function Venue() {
               </time>
               <div className="venue-event-copy">
                 <p className="venue-event-label">{e.title}</p>
-                <h3>{e.venue.name}</h3>
                 <p className="venue-event-time">{e.schedule[0].time}</p>
               </div>
             </div>

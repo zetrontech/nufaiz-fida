@@ -9,7 +9,6 @@ export default function Hero({ open }) {
         <a href="#invitation" aria-label={`${couple} invitation`} className="small-monogram">
           {w.initials.bride} × {w.initials.groom}
         </a>
-        <span className="eyebrow">THE NIKAH EDITION</span>
         <time className="eyebrow" dateTime={w.wedding.date}>
           {dmy(w.wedding.date)}
         </time>
@@ -34,16 +33,7 @@ export default function Hero({ open }) {
           <div className="hero-arch" />
           <Floral eager className="hero-flower" />
           <span className="vertical-note eyebrow">A NEW CHAPTER, TOGETHER</span>
-          <span className="art-caption">
-            <i>Two hearts.</i>
-            <br />
-            One invitation.
-          </span>
         </div>
-      </div>
-      <div className="hero-bottom eyebrow">
-        <span>WITH OUR FAMILIES, WITH ALL OUR LOVE</span>
-        <span>01 / THE BEGINNING</span>
       </div>
     </header>
   )

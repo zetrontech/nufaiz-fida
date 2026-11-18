@@ -62,7 +62,6 @@ export default function Intro({ onOpen, onBegin }) {
         </div>
         <div className="envelope-front" />
       </div>
-      <span className="intro-bottom eyebrow">MANJERI · FOREVER</span>
     </div>
   )
 }

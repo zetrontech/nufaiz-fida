@@ -17,3 +17,9 @@
 /* Nikah-only: single event card and single venue entry */
 .events-grid{grid-template-columns:minmax(0,760px);justify-content:center}
 .venue-events{grid-template-columns:minmax(0,440px)}
+
+/* Nikah card without the venue line: date + time on top, Directions below */
+.nikah-composition .event-composition{grid-template-areas:"date time" "link link";align-items:center}
+.nikah-composition .event-date{grid-area:date}
+.nikah-composition .timeline{grid-area:time}
+.nikah-composition .action-link{grid-area:link;justify-self:start;margin-top:14px}

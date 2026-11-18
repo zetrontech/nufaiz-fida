@@ -4,12 +4,6 @@ import { wedding as w } from '../data/wedding'
 export default function Formal() {
   return (
     <section className="formal section-pad" id="formal" aria-label="With the blessings of our families">
-      <Reveal className="formal-heading">
-        <p className="eyebrow section-marker">
-          <span>02</span>
-          <i>WITH THE BLESSINGS OF OUR FAMILIES</i>
-        </p>
-      </Reveal>
       <div className="formal-bilingual formal-single">
         <Reveal>
           <article className="invitation-letter english-invitation" lang="en">

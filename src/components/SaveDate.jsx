@@ -57,10 +57,6 @@ export default function SaveDate() {
     <section className="save-date section-pad" aria-labelledby="calendar-title">
       <Reveal>
         <div className="save-date-intro">
-          <p className="eyebrow section-marker">
-            <span>04</span>
-            <i>KEEP THIS DAY FOR US</i>
-          </p>
           <h2 id="calendar-title">
             Save the <em>date.</em>
           </h2>
