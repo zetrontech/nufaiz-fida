@@ -5,7 +5,6 @@ function EventCard({ event }) {
   return (
     <div className="event-composition">
       <div className="event-date">
-        <span className="eyebrow">{event.title}</span>
         <time dateTime={event.date}>
           <strong>{event.day}</strong>
           <span className="eyebrow">
@@ -38,20 +37,16 @@ export default function Events() {
   return (
     <section className="events" id="celebrations" aria-labelledby="events-title">
       <Reveal className="events-heading">
-        <p className="eyebrow">04 / THE CELEBRATIONS</p>
+        <p className="eyebrow">03 / THE CELEBRATIONS</p>
         <h2 id="events-title">
           Come for the love.
           <br />
           <em>Stay for the memories.</em>
         </h2>
-        <p className="eyebrow">CELEBRATE WITH US · MANJERI</p>
       </Reveal>
       <div className="events-grid">
-        <Reveal className="reception-composition">
+        <Reveal className="nikah-composition">
           <EventCard event={w.wedding} />
-        </Reveal>
-        <Reveal className="wedding-composition navy">
-          <EventCard event={w.reception} />
         </Reveal>
       </div>
       <p className="schedule-note">All times are India Standard Time (IST).</p>

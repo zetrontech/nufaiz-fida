@@ -26,7 +26,7 @@ export default function Hero({ open }) {
           <p className="hero-dates">
             <time dateTime={w.wedding.date}>{dmy(w.wedding.date)}</time>
           </p>
-          <a className="text-button scroll-cue" href="#uncover">
+          <a className="text-button scroll-cue" href="#formal">
             Scroll to unfold <Arrow down />
           </a>
         </div>

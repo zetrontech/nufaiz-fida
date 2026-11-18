@@ -3,21 +3,17 @@ import { wedding as w } from '../data/wedding'
 
 export default function Formal() {
   return (
-    <section className="formal section-pad" aria-labelledby="formal-title">
+    <section className="formal section-pad" id="formal" aria-label="With the blessings of our families">
       <Reveal className="formal-heading">
         <p className="eyebrow section-marker">
-          <span>03</span>
+          <span>02</span>
           <i>WITH THE BLESSINGS OF OUR FAMILIES</i>
         </p>
       </Reveal>
       <div className="formal-bilingual formal-single">
         <Reveal>
-          <article className="invitation-letter english-invitation" lang="en" aria-labelledby="formal-title">
+          <article className="invitation-letter english-invitation" lang="en">
             <p className="eyebrow formal-prayer">{w.prayer}</p>
-            <h2 id="formal-title">
-              We're getting <em>married.</em>
-            </h2>
-            <p className="intro-copy">{w.formalIntroduction}</p>
             <div className="formal-couple">
               {Object.values(w.couple).map((p, i) => (
                 <div key={p.formal}>

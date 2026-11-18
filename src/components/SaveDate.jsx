@@ -51,21 +51,19 @@ function Countdown() {
 export default function SaveDate() {
   const cells = monthCells(w.dates.year, w.dates.monthIndex)
   const couple = `${w.couple.bride.informal} & ${w.couple.groom.informal}`
-  const events = [w.wedding, w.reception]
+  const events = [w.wedding]
   const day = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
   return (
     <section className="save-date section-pad" aria-labelledby="calendar-title">
       <Reveal>
         <div className="save-date-intro">
           <p className="eyebrow section-marker">
-            <span>05</span>
+            <span>04</span>
             <i>KEEP THIS DAY FOR US</i>
           </p>
           <h2 id="calendar-title">
             Save the <em>date.</em>
           </h2>
-          <p className="calendar-couple">{couple}</p>
-          <p className="eyebrow">ARE GETTING MARRIED</p>
         </div>
         <div className="calendar">
           <h3>

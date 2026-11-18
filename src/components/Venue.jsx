@@ -12,7 +12,7 @@ export default function Venue() {
       </picture>
       <Reveal>
         <p className="eyebrow section-marker">
-          <span>07</span>
+          <span>06</span>
           <i>A PLACE FOR OUR FOREVER</i>
         </p>
         <span className="venue-city eyebrow">LOCATION · {v.city}</span>
@@ -23,7 +23,7 @@ export default function Venue() {
         </h2>
         <address>{v.address}</address>
         <div className="venue-events">
-          {[w.wedding, w.reception].map((e) => (
+          {[w.wedding].map((e) => (
             <div className="venue-event" key={e.title}>
               <time className="venue-event-date" dateTime={e.date}>
                 <strong>{e.day}</strong>

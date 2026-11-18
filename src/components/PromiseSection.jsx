@@ -7,7 +7,7 @@ export default function PromiseSection() {
       <Reveal className="promise-layout">
         <div className="promise-heading">
           <p className="eyebrow section-marker">
-            <span>06</span>
+            <span>05</span>
             <i>TWO HEARTS, ONE PROMISE</i>
           </p>
           <h2 id="story-title">

@@ -1,7 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
 import Intro from './components/Intro'
 import Hero from './components/Hero'
-import Scratch from './components/Scratch'
 import Formal from './components/Formal'
 import Events from './components/Events'
 import SaveDate from './components/SaveDate'
@@ -56,7 +55,6 @@ export default function App() {
         )}
         <Hero open={open} />
         <main>
-          <Scratch />
           <Formal />
           <Events />
           <SaveDate />

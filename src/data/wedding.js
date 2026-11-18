@@ -38,7 +38,7 @@ export const wedding = {
   initials: { bride: 'F', groom: 'N' },
   dates: { year: 2026, monthIndex: 11, month: 'December', weddingStart: '2026-12-27T10:30:00+05:30' },
   venue,
-  // Nikah first, Reception the same day.
+  // Nikah only.
   wedding: {
     title: 'Nikah',
     date: '2026-12-27',
@@ -48,16 +48,6 @@ export const wedding = {
     weekday: 'Sunday',
     venue,
     schedule: [{ time: '10:30 AM – 12:30 PM', title: 'Nikah' }],
-  },
-  reception: {
-    title: 'Wedding Reception',
-    date: '2026-12-27',
-    start: '2026-12-27T12:30:00+05:30',
-    end: '2026-12-27T15:00:00+05:30',
-    day: 27,
-    weekday: 'Sunday',
-    venue,
-    schedule: [{ time: '12:30 PM – 3:00 PM', title: 'Wedding Reception' }],
   },
   hosts: 'Dr Asiq Sideeque, Dr Ruxana, Avez & Aazim',
   prayer: 'In the name of Allah, the Most Gracious and Merciful.',

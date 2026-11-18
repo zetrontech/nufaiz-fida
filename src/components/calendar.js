@@ -33,7 +33,6 @@ export function downloadIcs(couple) {
     'PRODID:-//Fida & Nufaiz//Nikah Invitation//EN',
     'CALSCALE:GREGORIAN',
     vevent('nikah', w.wedding, couple),
-    vevent('reception', w.reception, couple),
     'END:VCALENDAR',
   ].join('\r\n')
   const url = URL.createObjectURL(new Blob([ics], { type: 'text/calendar;charset=utf-8' }))
