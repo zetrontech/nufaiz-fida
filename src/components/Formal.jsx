@@ -7,7 +7,12 @@ export default function Formal() {
       <div className="formal-bilingual formal-single">
         <Reveal>
           <article className="invitation-letter english-invitation" lang="en">
-            <p className="eyebrow formal-prayer">{w.prayer}</p>
+            <p className="formal-prayer">
+              {w.prayer[0]}
+              <br />
+              {w.prayer[1]}
+            </p>
+            <p className="formal-invite">{w.invitation}</p>
             <div className="formal-couple">
               {Object.values(w.couple).map((p, i) => (
                 <div key={p.formal}>

@@ -23,3 +23,7 @@
 .nikah-composition .event-date{grid-area:date}
 .nikah-composition .timeline{grid-area:time}
 .nikah-composition .action-link{grid-area:link;justify-self:start;margin-top:14px}
+
+/* Client-supplied invitation wording above the family names */
+.formal-prayer{font-family:var(--font-serif);font-size:clamp(22px,2.6vw,30px);line-height:1.45;color:#1b2b41;opacity:1;text-align:center;margin:0 0 22px}
+.formal-invite{font-family:var(--font-serif);font-style:italic;font-size:21px;line-height:1.65;color:#636e7d;max-width:520px;margin:0 auto 44px;text-align:center}

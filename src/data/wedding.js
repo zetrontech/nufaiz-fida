@@ -50,7 +50,9 @@ export const wedding = {
     schedule: [{ time: '10:30 AM – 12:30 PM', title: 'Nikah' }],
   },
   hosts: 'Dr Asiq Sideeque, Dr Ruxana, Avez & Aazim',
-  prayer: 'In the name of Allah, the Most Gracious and Merciful.',
+  // Wording supplied by the client.
+  prayer: ['In the name of Allah', 'The Most Gracious, The Most Merciful'],
+  invitation: 'Dr. Asiq Sideeque, Dr. Ruxana, Avez and Aazim invites you to the Nikkah of',
   theme: 'Two hearts, one promise, a lifetime together.',
   verse: 'May Allah bless you both, shower His blessings upon you, and unite you in goodness.',
   verseArabic: 'بَارَكَ اللَّهُ لَكُمَا وَبَارَكَ عَلَيْكُمَا وَجَمَعَ بَيْنَكُمَا فِي خَيْرٍ',
