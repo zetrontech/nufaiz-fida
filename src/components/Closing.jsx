@@ -23,12 +23,6 @@ export default function Closing() {
         </Reveal>
       </section>
       <footer className="footer navy">
-        <span className="footer-couple">
-          {bride.informal} × {groom.informal}
-          <small>
-            Nikah · {w.dates.month} {w.dates.year}
-          </small>
-        </span>
         <Credit />
       </footer>
     </>

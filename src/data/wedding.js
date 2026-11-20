@@ -28,7 +28,7 @@ export const wedding = {
       formal: 'Nufaiz Ali Fazal',
       qualification: '',
       family: {
-        parents: ['S/o Dr Fazal Mohammed V.C & Mrs Minnath V.T'],
+        parents: ['S/o Dr Fazal Mohammed V.C & Mrs Mariyam Minnath V.T'],
         grandparents: [],
         place: '',
       },
